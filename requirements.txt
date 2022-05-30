@@ -1,0 +1,7 @@
+
+pip3 install robin-stocks
+pip3 install numpy nltk matplotlib pandas numpy yfinance
+
+
+# Install the Robinhood API
+pip3 install robin_stocks
