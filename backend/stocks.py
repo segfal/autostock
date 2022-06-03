@@ -3,6 +3,9 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
+from flask import Flask, render_template
+import plotly 
+import json
 
 
 class Stock:
@@ -32,7 +35,9 @@ class Stock:
         return returns
     def get_mean_return(self):
         return self.get_returns().mean()
-        
+
+
+
 
 
 
